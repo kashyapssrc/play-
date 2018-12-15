@@ -1,0 +1,29 @@
+[{
+  "id" : 1,
+  "street" : "delhi street",
+  "city" : "chennai",
+  "postal_code" : 610604
+},
+ {
+  "id" : 2,
+  "street" : "html street",
+  "city" : "chennai",
+  "postal_code" : 610604
+},
+{
+  "id" : 3,
+  "street" : "chennai street",
+  "city" : "delhi city",
+  "postal_code" : 610600
+},
+{
+  "id" : 4,
+  "street" : "chennai street",
+  "city" : "del city",
+  "postal_code" : 610600
+},{
+  "id" : 5,
+  "street" : "some street",
+  "city" : "some city",
+  "postal_code" : 610600
+}]

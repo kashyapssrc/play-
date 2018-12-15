@@ -1,0 +1,220 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: calibri;
+  font-size: 20px;
+}
+
+header{
+  position: sticky;
+  top: 0;
+}
+
+h4{
+  margin-top: 5px;
+}
+
+.login{
+  background-color: #585858;
+  text-align: right;
+  color: #FEFEFE;
+  padding-right:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ofmcHeader{
+  background-color: #FFFFFF;
+  box-shadow: -1px -5px 10px -3px #060611;
+  width: 100%;
+  position: sticky;
+  top: 44px;
+}
+
+#ofmclogo{
+    margin: 10px;
+  }
+
+.quickLinks{
+  float: left;
+  width: 25%;
+  height: 500px;
+  background-image: url("../assets/quickLinksBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  color: #FFFFFF;
+}
+
+.ismsPing{
+  float: left;
+  width: 25%;
+  height:500px;
+  background-image: url("../assets/ismsPing.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  color: #FFFFFF;
+}
+
+.celebrations{
+  float: left;
+  width: 30%;
+  height: 500px;
+  background-image: url("../assets/celebrations.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  text-indent: 20px;
+  color: #FFFFFF;
+}
+
+.photos{
+  float: left;
+  width: 20%;
+  height: 250px;
+  background-image: url("../assets/gallery.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  color: #FFFFFF;
+}
+
+.contact{
+  float: left;
+  width: 20%;
+  height: 250px;
+  background-image: url("../assets/contact.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  color: #FFFFFF;
+}
+
+.bulletin{
+  margin: 0;
+  float: left;
+  width: 50%;
+  height: 355px;
+  background-color: #171B22;
+  color: #FFFFFF;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+li{
+  display: inline;
+  text-indent: 20px;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+li:hover{
+  border-bottom: solid 1px #FFFFFF;
+  cursor: pointer;
+}
+
+.forum{
+  float: left;
+  width: 50%;
+  height: 355px;
+  background-color: #221507;
+  color: #FFFFFF;
+  text-indent: 10px;
+}
+
+#footer{
+  background-color: #7D7D7D;
+  text-align: right;
+  font-size: 17px;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+@media  (max-width: 1024px) {
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .ofmcHeader{
+    width: 100%;
+    background-color: #F7B600;
+    padding: 0px;
+    position: sticky;
+    top: 0;
+  }
+  
+  #ofmclogo{
+    margin: 10px;
+  }
+  
+  .login{
+    display: none;
+  }
+  
+  .quickLinks{
+    clear: left;
+    width: 100%;
+    height: 10vh;
+    font-size: 100%;
+  }
+  
+  .ismsPing{
+    width: 100%;
+    height: 10vh;
+    background-image: none;
+    background-color: #7A7991;
+  }
+  
+  .celebrations{
+    width: 100%;
+    height: 10vh;
+  }
+  
+  .photos{
+    width: 100%;
+    height: 10vh;
+  }
+  
+  .contact{
+    width: 100%;
+    height: 10vh;
+    background-image: none;
+    background-color: #7A7991;
+  }
+  
+  .bulletin{
+    width: 100%;
+    height: 25vh;
+    overflow-y: auto; 
+  }
+  
+  li{
+    display: block;
+    text-indent: 10px;
+    margin-bottom: 4%;
+  }
+  
+  li:hover{
+    border-bottom: none;
+  }
+  
+  .forum{
+    bottom: 0px;
+    width: 100%;
+    height: 25vh;
+  }
+  
+  #forumheader{
+    padding-left: 10px;
+  }
+  
+  #footer{
+    text-align:center;
+    padding: 0px;
+  }
+}

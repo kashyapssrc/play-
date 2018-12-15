@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Yellow pages</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="left-side-panel">
+      <ul class="menu-options">
+        <li class="entity-list" onclick="tableTemplate()" id="address">Address</li>
+        <li class="entity-list" onclick="tableTemplate()" id="person">Person</li>
+      </ul>
+    </div>
+    <div class="right-side-panel">
+      <div class="list-panel" id="list-panel">
+        <table class="table" id="table">
+        </table>
+        <button class="submit" type="button" id="add" onclick="reset()">Add</button>
+      </div>
+      <div class="entity-info-panel">
+        <form class="form" id="form">
+        </form>
+      </div>
+    </div>
+    <script src="scripts/populateTable.js"></script>
+  </body>
+</html>

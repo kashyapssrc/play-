@@ -1,0 +1,125 @@
+body{
+  margin: 0;
+}
+.menu{
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: 100vh;
+  box-shadow: 5px 0px 5px -5px #BFBFBF;
+}
+
+.address-header{
+  width: 10%;
+}
+
+.customize-menu-header{
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 1px solid #BFBFBF;
+}
+
+h4{
+  width: 100%;
+}
+
+#person{
+  top: 20%;
+}
+
+.customize-menu-header:hover{
+  border-left: 5px solid #3E7EFF;
+  cursor: pointer;
+  width: 97%;
+}
+
+.table-container{
+  position: relative;
+  left: 10%;
+  height:100vh;
+  width: 90%;
+}
+
+.table{
+  position: relative;
+  top: 2%;
+  left: 1%;
+  width:98%;
+  height: 48vh;
+  overflow-y: auto;
+  box-shadow: 0px 2px 5px 1px #BFBFBF;
+  border-radius: 10px;
+}
+
+.info-table{
+  position: absolute;
+  width: 80%;
+  height: auto;
+  left: 10%;
+}
+
+tr:hover{
+  outline: 1px solid black;
+  cursor: pointer;
+}
+
+td,th{
+  width: 10%;
+  height: 5vh;
+  text-align:left;
+}
+
+.form-container{
+  position : relative;
+  left: 10%;
+  height: 49.9vh;
+  width: 90%;
+}
+
+.form-card{
+  position: absolute;
+  top: 53%;
+  left: 1%;
+  box-shadow: 0px 2px 5px 1px #BFBFBF;
+  width: 98%;
+  height: 45vh;
+  border-radius: 10px;
+}
+
+.customize-label{
+  position: relative;
+  top: 7vh;
+  left: 2%;
+  width: 90%;
+  display: block;
+}
+
+.textbox-prop{
+  position: relative;
+  top: 5vh;
+  left: 10%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #BFBFBF;
+  outline: none;
+}
+
+.textbox-prop:focus{
+  border-bottom : 2px solid #1A73E8;
+}
+
+.submit{
+  position: absolute;
+  border: none;
+  border-radius: 5px;
+  top: 80%;
+  left: 85%;
+  height: 50px;
+  width: 10%;
+  background-color: #1A73E8;
+  color: #FFFFFF;
+  outline: none;
+}
